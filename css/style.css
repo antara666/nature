@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Lato', sans-serif;
+} */
+header{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #f9f9f9;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    transition: .5s all ease-in-out;
+    cursor: pointer;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #596861;
+}
+.nav-item{
+
+margin-left: 30px;
+}
+.btn-custom{
+
+background: transparent;
+
+border: none;
+
+border: 1px solid #f9f9f9;
+
+color: #f9f9f9;
+
+border-radius: 5px;
+
+padding: 10px 40px;
+
+margin-left: 30px;
+
+font-size: 15px;
+
+font-weight: 400;
+
+font-family: 'Lato', sans-serif;
+}
+.btn-custom:hover{
+    background-color: #f6f8f5;
+    color: #596861;
+}
+.banner-content{
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.banner-content h2{
+
+color: #f9f9f9;
+
+font-size: 45px;
+
+font-weight: 400;
+
+line-height: 5px;
+
+font-family: 'Lato', sans-serif;
+}
+.banner-content h1{
+
+color: #f9f9f9;
+
+font-size: 105px;
+
+font-weight: 500;
+
+font-family: 'Lato', sans-serif;
+}
+.banner-content p{
+
+color: #f9f9f9;
+
+font-size: 16px;
+
+font-weight: 400;
+
+font-family: 'Lato', sans-serif;
+}
+.btn-banner{
+
+background: #ffd938;
+
+border: none;
+
+color: #66706f;
+
+border-radius: 5px;
+
+padding: 10px 40px;
+
+font-size: 15px;
+
+font-weight: 400;
+
+font-family: 'Lato', sans-serif;
+
+margin-top: 15px;
+}
+.btn-banner:hover{
+    background-color: #c9af3c;
+    color: #f9f9f9;
+}
+.service{
+    justify-content: center;
+    padding: 30px 0 20px 0;
+}
+.service-text{
+    justify-content: center;
+}
+.service-text h1{
+    
+color: #596861;
+    
+font-size: 45px;
+    
+font-weight: 400;
+    
+font-family: 'Lato', sans-serif;
+    
+margin-bottom: 15px;
+}
+.service-text span{
+    
+display: block;
+    
+background-color: #ffd938;
+    
+height: 3px;
+    
+width: 100px;
+    
+margin: auto;
+    
+margin-bottom: 10px;
+}
+.service-content{
+
+}
+.service-content h2{
+
+color: #596861;
+
+font-size: 20px;
+
+font-weight: 500;
+
+font-family: 'Lato', sans-serif;
+
+margin: 20px 0 10 0;
+
+margin-top: 20px;
+}
+.service-content p{
+
+color: #66706f;
+
+font-size: 16px;
+
+font-weight: 400;
+
+font-family: 'Lato', sans-serif;
+}
+.image-box{
+    position: relative;
+}
+.image-box::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #ffd938;
+    opacity: .8;
+    transition: .5s all ease-in-out;
+}
+.image-box:hover::before{
+    width: 100%;
+}
+.image-box img{
+
+}
+.testimonial{
+
+background-color: #f6f8f5;
+}
+.testimonial-content{
+    
+}
+.testimonial-content img{
+
+}
+.testimonial-content h1{
+    
+color: #596861;
+    
+font-size: 29px;
+    
+font-weight: 400;
+    
+font-family: 'Playfair Display', serif;
+    
+margin-bottom: 40px;
+    
+margin-top: 40px;
+}
+.testimonial-content h6{
+    
+color: #66706f;
+    
+font-weight: 400;
+    
+font-size: 15px;
+    
+margin-top: 12px;
+    
+font-family: 'Lato', sans-serif;
+}
+.client{
+
+width: 12%;
+
+margin: auto;
+
+border-radius: 50%;
+
+overflow: hidden;
+
+margin: 20px 0 10 0;
+}
+.client img{
+    
+}
+.about-us{
+
+padding: 30px;
+}
+.about-text{
+min-height: 80vh;
+align-items: center;
+justify-content: center;
+}
+.about-text h5{
+    
+color: #66706f;
+font-family: 'Lato', sans-serif;   
+font-weight: 300;    
+font-size: 13px;    
+text-transform: uppercase;
+}
+.about-text h1{   
+color: #596861;   
+font-size: 35px;
+    
+font-size: 29px;
+    
+font-weight: 400;
+    
+margin: 15px 0 25px 0;
+    
+font-family: 'Playfair Display', serif;
+}
+.about-text p{
+color: #66706f;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+font-size: 15px;
+margin-bottom: 40px;
+}
+.about-image{
+text-align: center;
+}
+.about-image img{
+width: 60%;
+}
+.btn-about{
+color: #66706f;
+background: transparent;
+border: none;
+border: 1px solid #66706f;
+border-radius: 5px;
+padding: 10px 40px;
+font-size: 15px;
+font-weight: 400;
+font-family: 'Lato', sans-serif;
+}
+.btn-about:hover{
+    background-color: #596861;
+    color: #f9f9f9;
+}
+.question{
+    background-image: url(../images/pexels-maria-orlova-4940720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    margin-bottom: 15px;
+}
+.question h1{
+color: #596861;
+font-size: 35px;
+font-size: 50px;
+font-weight: 400;
+font-family: 'Lato', sans-serif;
+}
+.question p{
+color:#66706f;
+font-size: 16px;
+font-weight: 400;
+font-family: 'Lato', sans-serif;
+margin: 30px 0;
+}
+.question-content{
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+footer{
+
+}
+.footer-content{
+height: 60px;
+align-items: center;
+justify-content: space-evenly;
+}
+footer ul{
+justify-content: space-between;
+display: flex;
+align-items: center;
+width: 40%;
+}
+footer ul li{
+list-style: none;
+color: #596861;
+margin-left: 35px;
+font-family: 'Lato', sans-serif;
+font-size: 15px;
+font-weight: 400;
+}
+.footer-image{
+margin: auto;
+text-align: center;
+}
+.footer-image img{
+width: 15%;
+}
+footer p{
+
+color: #596861;
+text-align: center;
+font-family: 'Lato', sans-serif;
+font-size: 15px;
+font-weight: 400;
+}
